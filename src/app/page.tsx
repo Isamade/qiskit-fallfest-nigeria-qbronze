@@ -99,7 +99,7 @@ export default function Home() {
           <div className="section-header">02 // Event Schedule</div>
 
           <p className="text-muted font-mono" style={{ marginBottom: '2rem', fontSize: '0.875rem' }}>
-            * Note: All sessions begin at 15:00 WAT (UTC+1) and last for 1.5 hours.
+            * Note: All sessions begin at 17:00 WAT (UTC+1) and last for 1.5 hours.
           </p>
 
           <div style={{ display: 'grid', gridTemplateColumns: 'repeat(auto-fit, minmax(min(100%, 300px), 1fr))', gap: '2rem' }}>
@@ -166,6 +166,16 @@ export default function Home() {
             </div>
 
             <div className="team-card">
+              <h4 style={{ marginBottom: '0.25rem' }}>Victor Adeyemi</h4>
+              <p className="font-mono text-blue" style={{ fontSize: '0.75rem', marginBottom: '0.5rem', textTransform: 'uppercase' }}>Instructor</p>
+            </div>
+
+            <div className="team-card">
+              <h4 style={{ marginBottom: '0.25rem' }}>Aniekan Afangideh</h4>
+              <p className="font-mono text-blue" style={{ fontSize: '0.75rem', marginBottom: '0.5rem', textTransform: 'uppercase' }}>Mentor</p>
+            </div>
+
+            <div className="team-card">
               <h4 style={{ marginBottom: '0.25rem' }}>Ibukunoluwa Adisa</h4>
               <p className="font-mono text-blue" style={{ fontSize: '0.75rem', marginBottom: '0.5rem', textTransform: 'uppercase' }}>Mentor</p>
             </div>
@@ -176,7 +186,7 @@ export default function Home() {
             </div>
 
             <div className="team-card">
-              <h4 style={{ marginBottom: '0.25rem' }}>Victor Adeyemi</h4>
+              <h4 style={{ marginBottom: '0.25rem' }}>Afees Tiamiyu</h4>
               <p className="font-mono text-blue" style={{ fontSize: '0.75rem', marginBottom: '0.5rem', textTransform: 'uppercase' }}>Mentor</p>
             </div>
 
