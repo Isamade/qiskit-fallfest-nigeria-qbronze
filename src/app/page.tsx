@@ -27,7 +27,7 @@ export default function Home() {
           {/* Hero Banner Image */}
           <div className="hide-on-mobile" style={{ position: 'relative', width: '100%', maxWidth: '1000px', margin: '0 auto', height: '250px', borderRadius: '8px', overflow: 'hidden', border: '1px solid var(--border-color)' }}>
             <Image
-              src="/top_QBronze2.png"
+              src="/top_QBronze3.png"
               alt="QBronze Workshop Banner"
               fill
               style={{ objectFit: 'cover' }}
@@ -99,7 +99,7 @@ export default function Home() {
           <div className="section-header">02 // Event Schedule</div>
 
           <p className="text-muted font-mono" style={{ marginBottom: '2rem', fontSize: '0.875rem' }}>
-            * Note: All sessions begin at 17:00 WAT (UTC+1) and last for 1.5 hours.
+            * Note: All QBronze sessions begin at 17:30 WAT (GMT+1) and last for 1.5 hours. All QPrep sessions begin at 18:30 WAT (GMT+1).
           </p>
 
           <div style={{ display: 'grid', gridTemplateColumns: 'repeat(auto-fit, minmax(min(100%, 300px), 1fr))', gap: '2rem' }}>
@@ -172,7 +172,7 @@ export default function Home() {
 
             <div className="team-card">
               <h4 style={{ marginBottom: '0.25rem' }}>Aniekan Afangideh</h4>
-              <p className="font-mono text-blue" style={{ fontSize: '0.75rem', marginBottom: '0.5rem', textTransform: 'uppercase' }}>Mentor</p>
+              <p className="font-mono text-blue" style={{ fontSize: '0.75rem', marginBottom: '0.5rem', textTransform: 'uppercase' }}>Instructor</p>
             </div>
 
             <div className="team-card">
