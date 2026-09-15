@@ -99,7 +99,7 @@ export default function Home() {
           <div className="section-header">02 // Event Schedule</div>
 
           <p className="text-muted font-mono" style={{ marginBottom: '2rem', fontSize: '0.875rem' }}>
-            * Note: All QBronze sessions begin at 17:30 WAT (GMT+1) and last for 1.5 hours. All QPrep sessions begin at 18:30 WAT (GMT+1).
+            * Note: All QBronze sessions begin at 17:30 WAT (GMT+1) and last for about 2 hours. All QPrep sessions begin at 18:30 WAT (GMT+1).
           </p>
 
           <div style={{ display: 'grid', gridTemplateColumns: 'repeat(auto-fit, minmax(min(100%, 300px), 1fr))', gap: '2rem' }}>
@@ -188,6 +188,16 @@ export default function Home() {
             <div className="team-card">
               <h4 style={{ marginBottom: '0.25rem' }}>Afees Tiamiyu</h4>
               <p className="font-mono text-blue" style={{ fontSize: '0.75rem', marginBottom: '0.5rem', textTransform: 'uppercase' }}>Mentor</p>
+            </div>
+
+            <div className="team-card">
+              <h4 style={{ marginBottom: '0.25rem' }}>Abdulrazak Zubairu</h4>
+              <p className="font-mono text-blue" style={{ fontSize: '0.75rem', marginBottom: '0.5rem', textTransform: 'uppercase' }}>Mentor</p>
+            </div>
+
+            <div className="team-card">
+              <h4 style={{ marginBottom: '0.25rem'}}>Gospel Egeruan</h4>
+              <p className="font-mono text-blue" style={{ fontSize: '0.75rem', marginBottom: '0.5rem', textTransform: 'uppercase'}}>Mentor</p>
             </div>
 
           </div>
