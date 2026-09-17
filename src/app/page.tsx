@@ -22,7 +22,7 @@ export default function Home() {
       <section style={{ padding: '6rem 2rem', textAlign: 'center', borderBottom: '1px solid var(--border-color)' }}>
         <div className="container" style={{ display: 'flex', flexDirection: 'column', alignItems: 'center', gap: '2rem' }}>
 
-          <h1 style={{ fontSize: '2.5rem', marginBottom: '-1rem', fontFamily: 'var(--font-space-mono)', fontWeight: '700', textTransform: 'uppercase', letterSpacing: '-0.02em' }}>IBM Qiskit</h1>
+          <h1 style={{ fontSize: '2.5rem', marginBottom: '-1rem', fontFamily: 'var(--font-space-mono)', fontWeight: '700', textTransform: 'uppercase', letterSpacing: '-0.02em' }}>IBM Qiskit Workshop</h1>
 
           {/* Hero Banner Image */}
           <div className="hide-on-mobile" style={{ position: 'relative', width: '100%', maxWidth: '1000px', margin: '0 auto', height: '250px', borderRadius: '8px', overflow: 'hidden', border: '1px solid var(--border-color)' }}>
