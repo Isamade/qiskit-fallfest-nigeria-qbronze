@@ -35,12 +35,12 @@ export default function Home() {
           </div>
 
           <div style={{ display: 'flex', gap: '10px' }}>
-            <span className="schedule-badge" style={{ marginBottom: '0' }}>SEP 25 - OCT 2, 2026</span>
+            <span className="schedule-badge" style={{ marginBottom: '0' }}>SEP 29 - OCT 2, 2026</span>
             <span className="schedule-badge" style={{ marginBottom: '0', borderColor: 'var(--border-color)', color: 'var(--text-muted)' }}>VIRTUAL EVENT</span>
           </div>
 
           {/* Functional Countdown */}
-          <Countdown targetDate="2026-09-25T15:00:00+01:00" />
+          <Countdown targetDate="2026-09-29T17:00:00+01:00" />
 
           <div style={{ marginTop: '1rem' }}>
             <a href="https://docs.google.com/forms/d/e/1FAIpQLSfv0uenfVZMsWyPnP7XHJTLYyPeSfC0qDdNhwXbfIJ7T7pv7A/viewform?usp=dialog" target="_blank" rel="noreferrer" className="btn-primary">Reserve Your Seat</a>
@@ -166,6 +166,16 @@ export default function Home() {
             </div>
 
             <div className="team-card">
+              <h4 style={{ marginBottom: '0.25rem' }}>Dr. Dauda Dikko</h4>
+              <p className="font-mono text-blue" style={{ fontSize: '0.75rem', marginBottom: '0.5rem', textTransform: 'uppercase' }}>Speaker</p>
+            </div>
+
+            <div className="team-card">
+              <h4 style={{ marginBottom: '0.25rem' }}>Favour Alfred</h4>
+              <p className="font-mono text-blue" style={{ fontSize: '0.75rem', marginBottom: '0.5rem', textTransform: 'uppercase' }}>Speaker</p>
+            </div>
+
+            <div className="team-card">
               <h4 style={{ marginBottom: '0.25rem' }}>Victor Adeyemi</h4>
               <p className="font-mono text-blue" style={{ fontSize: '0.75rem', marginBottom: '0.5rem', textTransform: 'uppercase' }}>Instructor</p>
             </div>
@@ -196,8 +206,8 @@ export default function Home() {
             </div>
 
             <div className="team-card">
-              <h4 style={{ marginBottom: '0.25rem'}}>Gospel Egeruan</h4>
-              <p className="font-mono text-blue" style={{ fontSize: '0.75rem', marginBottom: '0.5rem', textTransform: 'uppercase'}}>Mentor</p>
+              <h4 style={{ marginBottom: '0.25rem' }}>Gospel Egeruan</h4>
+              <p className="font-mono text-blue" style={{ fontSize: '0.75rem', marginBottom: '0.5rem', textTransform: 'uppercase' }}>Mentor</p>
             </div>
 
           </div>
